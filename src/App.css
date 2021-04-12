@@ -1,0 +1,78 @@
+.app {
+  background: #209cee;
+  height: 100vh;
+  padding: 30px;
+}
+
+.friend-list {
+  background: #fff;;
+  border-radius: 4px;
+  padding: 10px;
+  height: auto;
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* margin-left: 400px;
+  margin-right: 400px; */
+}
+
+.friend {
+  align-items: center;
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  padding: 3px 10px;
+}
+
+/* .modal { background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+  z-index: 1; 
+  width: 350px; 
+  height: 350px; 
+  position: fixed; 
+  top: 0;
+  left: 0;
+  overflow: auto; 
+  padding-top: 80px; 
+} */
+
+.modal {
+  background-color: white;
+  margin-left:450px;
+  margin-Top:300px;
+  width: 350px; 
+  height: 200px; 
+  position: fixed;
+  z-index: 3;
+  padding: 10px;
+  border: 1px solid black;
+  
+}
+
+.close {
+  color: #aaaaaa;
+  float: right; 
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.cancelbtn {
+  background-color:#46A049;
+  color: white;
+  width: 120px;
+  height: 50px;
+}
+
+/* Add a color to the delete button */
+.deletebtn {
+  background-color: #f44336;
+  color: white;
+  width: 120px;
+  height: 50px;
+}
